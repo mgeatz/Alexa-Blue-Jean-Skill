@@ -1,7 +1,7 @@
 'use strict';
 var Alexa = require('alexa-sdk');
 //OPTIONAL: replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
-var APP_ID = "amzn1.ask.skill.2262ea28-3c82-4259-b13f-1a02699133e0";
+var APP_ID = "amzn1.ask.skill.[your-unique-value-here]";
 var SKILL_NAME = 'Holiday';
 
 exports.handler = function(event, context, callback) {
